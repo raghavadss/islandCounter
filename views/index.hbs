@@ -1,0 +1,35 @@
+<h1>{{title}}</h1>
+
+<body class="wrapper" align="center">
+<div id="history"><a href="/historyView">History</a></div>
+<label id="nameLabel" for="gridName">Grid Name: </label>
+<input class="gridName" type="text" id="gridName" placeholder="Give a name to the grid">
+<br>
+
+<br>
+<div class="grid-params">
+    <input class="row" type="tel" id="row" placeholder="ROWS">
+    <input class="column" type="tel" id="column" placeholder="COLUMNS">
+    <input class="submit" type="button" id="gridSize" value="Make Grid">
+    <input class="submit" type="button" id="gridClear" value="ClearGrid">
+    <input type="button" value="Find Islands" class="submit" id="islandFind" />
+</div>
+<br>
+
+<div align="center">
+    <label id="message" for="message" style="display: none"></label>
+</div>
+
+<div align="center" style="height: 20px">
+    <label id="inputAssist" for="inputAssist" style="display: none"></label>
+</div>
+
+<div align="left" style="height: 10px">
+    <label id="inputValid" for="inputValid" style="display: none"></label>
+</div>
+
+<fieldset id="gridRegion">
+    <legend>GRID</legend>
+</fieldset>
+
+</body>
